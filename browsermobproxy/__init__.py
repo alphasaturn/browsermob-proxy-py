@@ -1,4 +1,4 @@
-__version__ = '0.5.0'
+__version__ = '2017.2.24'
 
 from .server import RemoteServer, Server
 from .client import Client
