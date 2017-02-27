@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='browsermob-proxy',
-      version='2017.2.24',
+      version='2017.2.27',
       description='A library for interacting with the Browsermob Proxy',
       author='David Burns',
       author_email='david.burns@theautomatedtester.co.uk',
