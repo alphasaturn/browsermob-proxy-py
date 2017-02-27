@@ -83,7 +83,6 @@ class Server(RemoteServer):
         self.path = path
         self.host = options.get('address', '0.0.0.0')
         self.port = options.get('port', 8080)
-        proxy_port_range = options.get('proxyPortRange', 500)
         ttl = options.get('ttl', 0)
         use_littleproxy = options.get('use-littleproxy', True)
         self.process = None
@@ -95,7 +94,6 @@ class Server(RemoteServer):
         self.command += [path,
                          '--address=%s' % self.host,
                          '--port=%s' % self.port,
-                         '--proxyPortRange=%s' % proxy_port_range,
                          '--ttl=%s' % ttl,
                          '--use-littleproxy=%s' % use_littleproxy]
 
