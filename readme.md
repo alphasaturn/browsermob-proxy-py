@@ -1,6 +1,8 @@
 browsermob-proxy-py
 ===================
 
+**Note: This is a fork of a branch created from https://github.com/bosondata/browsermob-proxy-py/tree/feature/implement_all_cli_interface that contains this pull request: https://github.com/AutomatedTester/browsermob-proxy-py/pull/67 which at this time, has not been merged yet into https://github.com/AutomatedTester/browsermob-proxy-py**
+
 Python client for the BrowserMob Proxy 2.0 REST API.
 
 
